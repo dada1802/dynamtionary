@@ -1,0 +1,9 @@
+span {
+    text-decoration: red underline;
+    margin: 0 5px;
+}
+
+.known {
+    text-decoration: none;
+    background-color: rgba(0, 100, 0, 0.3);
+}

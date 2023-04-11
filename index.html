@@ -4,16 +4,24 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet">
   <title>Dynamtionary</title>
 </head>
 <body>
   <!-- 1. whatever text is typed into the text area should be added to the div:
-  each separate token (split on spaces) should be added into the div as its 
-  own span element. -->
+    each separate token (split on spaces) should be added into the div as its 
+    own span element. -->
+    <!-- 1a: Get the words in the text area
+         1b: Split 1a by spaces
+         1c: Create a span element for each word
+         1d: Make the span element have the right stuff
+         1e: Add the span to the div -->
+  
   <textarea cols="30" rows="10"></textarea>
   <div></div>
 
   <!-- 2. add the html for a text input field -->
+  <input type="text" name="learn" id="learn">
 
   <!-- 3. whenever the enter/return key is pressed while the focus is on the
     input field, add the "word" in the text field to a list of known words
